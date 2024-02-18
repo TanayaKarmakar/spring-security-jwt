@@ -1,12 +1,10 @@
 package com.app.jwt.services.impl;
 
 import com.app.jwt.exception.InvalidRequestException;
-import com.app.jwt.exception.NotFoundException;
 import com.app.jwt.models.dto.AuthRequestDTO;
 import com.app.jwt.services.AuthService;
 import com.app.jwt.services.JwtService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.neo4j.Neo4jProperties;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
